@@ -18,12 +18,14 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(248, 245, 240, 0.9);
-  backdrop-filter: blur(10px);
+  background: rgba(248, 245, 240, 0.7);
+  backdrop-filter: blur(12px);
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 18px 40px;
   border-bottom: 1px solid #e7e0d6;
+  z-index: 1000;
+}
 }
 
 .logo .brand {
